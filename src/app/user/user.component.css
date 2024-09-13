@@ -1,0 +1,60 @@
+.mat-elevation-z8{
+    width: 1200px;
+    padding: 10px;
+    padding-left: 40px;
+}
+.jinga
+{
+    font-size: 30px;
+    margin-left: 60rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes items to the far ends */
+    width: 100%; /* Ensures full width usage */
+  }
+  
+  .search-box {
+    max-width: 300px; /* Adjust as needed */
+    flex-grow: 1; /* Keeps the search box aligned to the left */
+  }
+  
+  .search-box .mat-form-field-appearance-fill {
+    background: none; /* Remove background */
+  }
+  
+  .search-box .mat-form-field-underline {
+    display: none; /* Remove underline */
+  }
+  
+  .search-box .mat-form-field-ripple {
+    display: none; /* Remove ripple effect */
+  }
+  
+  .create-button {
+    min-width: 150px; /* Adjust button width as needed */
+    margin-left: auto; /* Keeps the button on the far right */
+  }
+  .th
+  {
+    background-color: aqua;
+  }
+
+
+  ::ng-deep .edit-button {
+    background-color: #007bff !important; /* Blue color */
+    color: white !important; /* White text */
+  }
+  
+  ::ng-deep .remove-button {
+    background-color: #e91e63 !important; /* Pink color *//* Light red color */
+    color: white !important; /* White text */
+  }
+
+  ::ng-deep .create-button
+  {
+    background-color: gold !important;
+    color: black !important;
+  }

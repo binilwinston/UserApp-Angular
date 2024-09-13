@@ -1,0 +1,44 @@
+.example-full-width{
+    width: 100%;
+}
+
+.mm 
+{
+    padding-top: 10%;
+}
+.jim
+{
+    padding: 10px;
+}
+.example-button-row
+{
+    margin-left: 80rem;
+    align-items: center;
+    text-align: center;
+}
+example-form {
+    overflow: hidden; /* Hide scrollbars */
+    max-height: 500px; /* Adjust based on your requirement */
+}
+
+.example-button-row {
+    margin-top: 20px; /* Adds spacing between the radio group and buttons */
+}
+
+
+.popup-container
+{
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+::ng-deep .Savebutton {
+    background-color: #007bff !important; /* Blue color */
+    color: white !important; /* White text */
+  }
+  
+  ::ng-deep .Closebutton {
+    background-color: #e91e63 !important; /* Pink color *//* Light red color */
+    color: white !important; /* White text */
+  }
